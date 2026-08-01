@@ -6,9 +6,13 @@ finance and billing systems, and the internal tooling the rest of the team build
 I tend to reach for a tool when a process is the bottleneck, which is where most of the work below
 came from.
 
-**Most of my commits are on a work account**
-([@filip-jovanov-h4h](https://github.com/filip-jovanov-h4h), 575 contributions in the last year), so
-the graph on this profile is quieter than the work has been.
+**Most of my commits are on a work account**, so the graph on this profile is quieter than the work
+has been. Here is [@filip-jovanov-h4h](https://github.com/filip-jovanov-h4h):
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
+  <img alt="Contribution calendar for @filip-jovanov-h4h over the last year" src="assets/contributions-light.svg">
+</picture>
 
 ---
 
