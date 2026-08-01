@@ -10,8 +10,6 @@ came from.
 ([@filip-jovanov-h4h](https://github.com/filip-jovanov-h4h), 575 contributions in the last year), so
 the graph on this profile is quieter than the work has been.
 
-[![Work account contributions](https://ghchart.rshah.org/filip-jovanov-h4h)](https://github.com/filip-jovanov-h4h)
-
 ---
 
 ## LLM Runner
