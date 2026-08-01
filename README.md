@@ -1,6 +1,6 @@
 # Filip Jovanov
 
-Senior software engineer in Skopje. Backend and platform work at Heart for Health ICT: LLM features,
+Senior back-end engineer in Skopje. At Heart for Health ICT I work across three things: LLM features,
 finance and billing systems, and the internal tooling the rest of the team builds on.
 
 I tend to reach for a tool when a process is the bottleneck, which is where most of the work below
