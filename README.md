@@ -37,6 +37,7 @@ codebase and a separate project.
 ## Also built
 
 **DepGraph** · Go, PostgreSQL, gonum, React
+
 Nightly scan of every Java repo in a GitHub org, parsing Maven manifests into a first-party
 dependency graph stored as an immutable snapshot per scan. Two numbers per module, in-degree and
 out-degree, classify it and map that class to an action: delete, merge into its single caller, or
@@ -44,6 +45,7 @@ keep. Currently 600 modules across 109 repositories, 1,959 dependencies, 97 live
 candidates. The output is a ranked backlog, not a picture.
 
 **CDF Runner** · Rust, tokio, sqlx, PostgreSQL
+
 A dependency-aware scheduler for Google Cloud Data Fusion, 870 lines across 7 modules. 194 pipelines
 with 221 dependencies, previously sequenced by hand. Validates the graph before any API call so an
 impossible plan aborts rather than stalls, propagates failure transitively so no compute is spent on
@@ -51,11 +53,13 @@ input that will never arrive, and writes every state transition to Postgres so a
 rather than restartable.
 
 **Liquibase toolchain** · Rust, Go
+
 Two tools for two halves of one problem. The Rust one classifies every changeset as DDL, DML or
 combined and reorganises an ad-hoc changelog tree into ordered categories. The Go one applies it
 across many tenants in parallel, with an adaptive rate limit driven by live database performance.
 
 **CI pipeline optimisation** · Maven, GitHub Actions
+
 Build caching, cache scoping and cost-based integration-test sharding. Wall time 12.7 to 8.5–9.1
 minutes, runner-minutes 65.8 to 47–49.5, cache written per run 7.9 GB to about 945 MB.
 
